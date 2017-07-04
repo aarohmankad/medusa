@@ -1,0 +1,17 @@
+body {
+	min-width: 300px;
+	padding: 20px;
+}
+
+.center_img {
+	display: block;
+	margin: 0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.row:nth-child(n+1) {
+	margin-bottom: 15px;
+}
