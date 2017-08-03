@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Medusa",
   "description": "Medusa reminds you to look away from your screen",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
