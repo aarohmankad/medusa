@@ -5,14 +5,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 	let params = {
 		title: 'Rest your eyes'
-		text: 'I will close in ${request.break_time / 1000} seconds',
+		text: `I will close in ${request.break_time / 1000} seconds`,
 		timer: request.break_time,
 	};
 
-	if (request.strict_mode) {
-		params['timer'] = request.break_time;
-	}
-
 	swal(params);
 	sendResponse({ ok: true });
-})
+});
