@@ -2,7 +2,8 @@ let
 	work_time = document.querySelector('#work_time').value,
 	break_time = document.querySelector('#break_time').value;
 
-if (localStorage.getItem('medusa_work_time') && localStorage.getItem('medusa_break_time')) {
+if (localStorage.getItem('medusa_work_time')
+	&& localStorage.getItem('medusa_break_time')) {
 	work_time = localStorage.getItem('medusa_work_time');
 	document.querySelector('#work_time').value = work_time;
 
